@@ -1,7 +1,23 @@
-name: llm
+name: subside
 channels:
   - conda-forge
 dependencies:
+  - python=3.12.11
+  - jupyterlab
   - ipywidgets
   - ipykernel
-  - jupyterlab
+  - ipympl
+  - geopandas
+  - plotly
+  - h3-py
+  - geodatasets
+  - contextily
+  - gdal
+  - rasterio
+  - ipyleaflet
+  - localtileserver 
+  - folium
+  - geojson
+  - h3pandas
+  - dask
+  - scikit-image
