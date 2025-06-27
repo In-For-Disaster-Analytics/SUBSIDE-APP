@@ -142,10 +142,12 @@
   "tags": ["portalName: ALL"],
   "notes": {
     "label": "Subside Jupyter (CPU)",
+    "helpUrl": "https://github.com/In-For-Disaster-Analytics/chm",
+    "helpText": "This app creates a Jupyter Lab environment for geospatial data analsyis for the Cultural Heritage Mapping project.",
     "hideNodeCountAndCoresPerNode": true,
     "isInteractive": true,
     "icon": "jupyter",
     "category": "Data Processing",
-    "queueFilter": ["development"]
+    "queueFilter": ["vm-small","normal","large","development","gpu-a100", "gpu-a100-dev", "gpu-a100-small"]
   }
 }
